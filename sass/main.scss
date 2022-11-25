@@ -1,0 +1,55 @@
+@use './partials/variables';
+@use './partials/contacto';
+@use './partials/hombres';
+@use './partials/mujeres';
+@use './partials/ninos';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MENÚ */
+.menu_css{
+    li > a{
+        font-size: 15px;
+        font-weight: bold;
+        color: #3f3f3f;
+    }
+    form > button{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+/* PANTALLA PEQUEÑA/CELULAR */
+@media (max-width:768px){
+    .introduccion{
+        width: 80%;
+    }
+}
+
+/* Imágenes servicios/categorías index */
+.tamano-img{
+    width: 180px;
+    height: 160px;
+}
+
+/* FOOTER */
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+    p{
+        color: #f3f3f3;
+        text-align: center;
+    }
+    .iconos{
+        font-size: 26px;
+        padding: 0 8px;
+        color: #f3f3f3;
+    }
+}

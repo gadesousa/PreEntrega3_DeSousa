@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Descripción de página -->
+    <meta name="description" content="Tu mejor outfit, en cualquier lugar y en cualquier época del año. Tu mejor versión te espera.">
+    <!-- Keyboards -->
+    <meta name="keywords" content="ropa, mujer, dama, niño, niña, nene, nena, hombre, caballero, chico, chica, chicos, chicas, hombres, mujeres, outfit, abrigos, remeras, abrigo, remera, camisas, camisa, pantalon, pantalones, medias, buzo, buzos, campera, camperas, chaqueta, chaquetas, falda, faldas, short, shorts, bermuda, bermudas">
+    <!-- Íconos bstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- CSS only BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>FARAH</title>
+</head>
+<body>
+
+  <!-- NAVBAR, cabeza de página -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light p-3 menu_css sticky-md-top">
+      <div class="container-fluid">
+        <!-- Nombre de la página en H1 para darle prioridad -->
+        <a class="navbar-brand" href="#">
+          <h1 class="text-primary fs-3 fw-bold">FARAH</h1>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorías
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./pages/hombres.html">Hombre</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./pages/mujeres.html">Mujer</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./pages/ninos.html">Niño</a>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+
+          <form class="d-flex" role="email">
+            <input class="form-control me-2" type="email" placeholder="Correo Electrónico" aria-label="email">
+            <button class="btn btn-primary btn-primary-outline-success" type="button">Newsletter</button>
+          </form>         
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Carrusel de imágenes -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="./pages/hombres.html">
+            <img src="./img/slide1-index.jpg" class="d-block w-100" alt="slide 1">
+          </a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="./pages/mujeres.html">
+            <img src="./img/slide2-index.jpg" class="d-block w-100" alt="slide 2">
+          </a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="./pages/ninos.html">
+            <img src="./img/slide3-index.jpg" class="d-block w-100" alt="slide 3">
+          </a>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span>Anterior</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span>Siguiente</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <!-- Introducción de página -->
+    <section class="w-50 mx-auto text-center pt-5 introduccion">
+      <h2 class="p-3 fs-2 border-top border-3">En <span class="text-primary fs-3 fw-bold">FARAH</span> creas tu estilo. Eres tú mismo</h2>
+      <p class="p-3 fs-4">Somos la marca número uno en mas de 30 países a nivel mundial,<span class="text-primary"> ¿Qué esperas para estar a la moda con nuestros productos?</span></p>
+    </section>
+
+    <!-- Servicios/Categorías -->
+    <section class="container-fluid">
+
+      <div class="row w-75 mx-auto">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5">
+          <img src="./img/servicios1-index.jpg" alt="palmera1" class="tamano-img">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Tu estilo. Tus reglas</h3>
+            <p class="px-4">Nosotros te damos la idea, tú la moldeas a tu gusto. Sé el dueño de tu look</p>
+          </div>
+        </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5">
+            <img src="./img/servicios2-index.jpg" alt="palmera2" class="tamano-img">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Para todos los gustos y edades</h3>
+              <p class="px-4">Siéntete libre, Farah está contigo y te acompaña en cualquier situación</p>
+            </div>
+      </div>
+    </section>
+
+  </main>
+  
+  <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+    <p class="fs-5 px-3 pt-3">FARAH. &copy; Todos los derechos reservados 2022</p>
+
+    <div class="iconos">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-whatsapp"></i></a>
+    </div>
+  </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
